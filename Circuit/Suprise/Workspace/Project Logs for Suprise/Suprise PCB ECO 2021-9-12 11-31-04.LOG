@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=PORT-UP-2
+Added Component: Designator=C17(CAP0402)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=RST Pin=C17-1
+Added Pin To Net: NetName=RST Pin=PORT-UP-2
+Added Pin To Net: NetName=RST Pin=R5-1
+Added Pin To Net: NetName=RST Pin=STM32F030F4P6-4
+Added Net: Name=RST
+Added Member To Class: ClassName=Suprise Member=Component C17 105
