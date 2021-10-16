@@ -18,7 +18,7 @@ void TasksInit() {
 
 	led1 = newLED(&led1,1);
 	key1 = newKey(&key1,1);
-	ws2812Group1 = newWS2812Group(&ws2812Group1,1,5);
+	ws2812Group1 = newWS2812Group(&ws2812Group1,1,24);
 	effectTaskInit();
 
 	/* test led after initialization */
@@ -30,6 +30,3 @@ void TasksExecute() {
 	key1.listening(&key1);
 	showCurrentEffect();
 }
-
-
-

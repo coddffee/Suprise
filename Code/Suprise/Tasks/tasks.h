@@ -12,10 +12,6 @@ typedef struct EffectNodeStruct {
 void onKeyPressed(Key *this);
 void TasksInit();
 void TasksExecute();
-
 void effectTaskInit();
 void showCurrentEffect();
 void switchEffect();
-
-
-

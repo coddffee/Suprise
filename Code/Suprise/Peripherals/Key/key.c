@@ -39,5 +39,3 @@ Key newKey(Key *this,int id) {
 
 	return *this;
 }
-
-

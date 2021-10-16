@@ -14,5 +14,3 @@ typedef struct LEDStruct {
 } LED;
 
 LED newLED(LED *this , int id);
-
-

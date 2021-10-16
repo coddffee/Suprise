@@ -64,4 +64,3 @@ LED newLED(LED *this,int id) {
 
 	return *this;
 }
-

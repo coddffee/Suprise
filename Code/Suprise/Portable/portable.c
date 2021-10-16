@@ -43,7 +43,7 @@ void ws2812GroupIOInit(WS2812Group *this) {
 
 void ws2812GroupWriteData(WS2812Group *this) {
 #define _0L1H_ 40
-#define _1L0H_ 19
+#define _1L0H_ 15
 
 	extern TIM_HandleTypeDef htim1;
 	static uint16_t *buffer = 0;
