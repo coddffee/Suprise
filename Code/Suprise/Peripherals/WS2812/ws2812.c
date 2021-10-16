@@ -44,6 +44,8 @@ WS2812Group newWS2812Group(WS2812Group *this,int id,int length) {
 
 	while(this->RBuffer == 0 || this->GBuffer == 0 || this->BBuffer == 0);
 
+	ws2812GroupIOInit(this);
+
 	for(int i=0;i<this->length;i++) this->setRGB(this,i+1,0x00,0x00,0x00);
 	this->refresh(this);
 
